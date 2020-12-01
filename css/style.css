@@ -1,0 +1,79 @@
+body {
+    font-family: "Circular Std", sans-serif;
+    background-image: url("../images/fundo.png");
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 32px;
+    color: #3CB371;
+    text-shadow: #2E8B57 1px 1px 1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top:200px;
+}
+
+.container h2 {
+    font-size: 25px;
+    color: #2E8B57;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 50px;
+    color: #2E8B57;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container .btn {
+    width: 300px;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #3CB371;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.container .btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px #2E8B57;
+    transition: transform 150ms;
+}
+
+.container .btnFim {
+    width: 300px;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #3CB371;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.container .btnFim:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px #2E8B57;
+    transition: transform 150ms;
+}
+

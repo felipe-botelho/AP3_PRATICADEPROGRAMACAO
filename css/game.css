@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: "Circular Std", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Circular Std", sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.progressoPerg {
+    text-align: center;
+    font-size: 25px;
+}
+
+#score {
+    text-align: center;
+}
+
+.numScore {
+    font-size: 30px;
+    color: #3CB371;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.progresso {
+    width: 300px;
+    height: 61px;
+    border: 5px solid #3CB371;
+    margin-top: 10px;
+}
+
+#barraProgresso {
+    height: 55px;
+    background-color: #3CB371;
+    width: 0%;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resp {
+    display: flex;
+    margin-bottom: 7px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #3CB371;
+    background-color: white;
+}
+
+.resp:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #3CB371;
+    transform: translate(-1.6px);
+    transition: transform 150ms;
+}
+
+.letraPergunta {
+    padding: 25px 40px;
+    background-color: #3CB371;
+    color: white;
+}
+
+.resposta {
+    padding: 25px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.correto {
+    background-color: #28a745;
+}
+
+.incorreto {
+    background-color: #dc3545;
+}

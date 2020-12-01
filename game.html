@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>QUIZ - COVID-19</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="game">
+            <div class="cabecalho">
+                <div id="cabecalhoPerg">
+                    <p id="textoPerg" class="progressoPerg">
+                        Question
+                    </p>
+                    <div class="progresso">
+                        <div id="barraProgresso"></div>
+                    </div>
+                </div>
+                <div id="cabecalhoPerg">
+                    <p class="progressoPerg">
+                        Pontuação
+                    </p>
+                    <h1 class="numScore" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question"></h2>
+            <div class="resp">
+                <p class="letraPergunta">A</p>
+                <p class="resposta" data-number="1"></p>
+            </div>
+            <div class="resp">
+                <p class="letraPergunta">B</p>
+                <p class="resposta" data-number="2"></p>
+            </div>
+            <div class="resp">
+                <p class="letraPergunta">C</p>
+                <p class="resposta" data-number="3"></p>
+            </div>
+            <div class="resp">
+                <p class="letraPergunta">D</p>
+                <p class="resposta" data-number="4"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
